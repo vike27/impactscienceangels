@@ -1,0 +1,82 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// import fonts
+/*------ Google font imports -----*/
+@import url(//fonts.googleapis.com/css?family=Montserrat|Open+Sans);
+
+///// Impact Science Angels ////
+.image-container2 {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),image-url('scientist_banner.jpg');
+  background-color: #093954;
+  height: 580px;
+  margin-top: 0px;
+  background-attachment:fixed;
+  background-size:cover;
+  margin-top: 0px;
+  color: white;
+}
+
+/** about section for impact science angels **/
+
+#about {
+  height: 680px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 130px;
+  padding-top: 110px;
+  text-align: justify;
+}
+
+#main-about {
+  padding-right: 50px;
+}
+
+#aside-about {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #093954;
+  color: white; 
+  margin-top: 100px;
+}
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+.image-container3 {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),image-url('scientist_banner.jpg');
+  background-color: #093954;
+  margin-top: 0px;
+  background-attachment:fixed;
+  background-size:cover;
+  margin-top: 0px;
+  color: white;
+}
